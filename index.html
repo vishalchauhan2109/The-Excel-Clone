@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="excel">MS-Excel</div>
+
+        <div class="features">
+            <div class="starting">
+                <a href="#"><h3 class="one file">file</h3></a>
+                <a href="#"><h3 class="one home">Home</h3></a>
+                <a href="#"><h3 class="one insert">Insert</h3></a>
+                <a href="#"><h3 class="one layout">Page Layout</h3></a>
+                <a href="#"><h3 class="one data">Data</h3></a>
+                <a href="#"><h3 class="one view">View</h3></a>
+                <a href="#"><h3 class="one ad">Ablebits Data</h3></a>
+                <a href="#"><h3 class="one"><i id="bulb" class="fa-regular fa-lightbulb"></i> Tell me what do you want to do</h3></a>
+            </div>
+        <div class="ending">
+                <a href="#"><h3 class="one">😂</h3></a>
+                <a href="#"><h3 class="one">
+                        <i id="share" class="fa-regular fa-share-from-square"></i> share
+                </h3></a>    
+        </div>
+        </div>
+
+
+        <div class="tool-kit">
+            <div class="tool-box">
+                 <div class="tool-div"><i class="fa-solid fa-scissors tools scissors"></i></div>
+                 <div class="tool-div"><i class="fa-regular fa-copy tools copy"></i></div>
+                 <div class="tool-div"><i class="fa-regular fa-clipboard tools paste"></i></div>
+                 <div id    ="font-family">
+                 <select class="tool-div select" class="font-family tools selector">
+                    <option style="font-family: Noto Sans;" value="Noto Sans">Noto Sans</option>
+                    <option style="font-family:Arial" value="Arial">Arial</option>
+                    <option style="font-family:Calibri" value="Calibri">Calibri</option>
+                    <option style="font-family:Comic Sans MS" value="Comic Sans MS">Comic Sans MS</option>
+                    <option style="font-family:Courier New" value="Courier New">Courier New</option> 
+                    <option style="font-family: Impact" value="Impact">Impact</option>
+                    <option style="font-family: Georgia" value="Georgia">Georgia</option>
+                    <option style="font-family:Garamond" value="Garamond">Garamond</option>
+                    <option style="font-family: Lang" value="Lato">Lato</option>
+                    <option style="font-family:Open Sans" value="Open Sans">Open Sans</option>
+                    <option style="font-family:Palatino" value="Palatino">Palatino</option>
+                    <option style="font-family:Verdana" value="Verdana">Verdana</option>
+                 </select>
+                 <select class="tool-div size" class="font-family tools sizee">
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                    <option value="28">28</opon>
+                    <option value="30">30</option>
+                    <option value="32">32</option>
+                 </select>
+                </div>
+                 <div class="tool-div"><i class="fa-solid fa-bold tools bold"></i></div>
+                 <div class="tool-div"><i class="fa-solid fa-italic tools italic"></i></div>
+                 <div class="tool-div"><i class="fa-solid fa-underline tools underline"></i></div>
+                 <div class="tool-div"><i class="fa-solid fa-align-left tools left"></i></div>
+                 <div class="tool-div"><i class="fa-solid fa-align-center tools center"></i></div>
+                 <div class="tool-div"><i class="fa-solid fa-align-right tools right"></i></div>
+
+                 <div class="tool-div"><i class="fa-solid fa-fill-drip"></i></div>
+                 <div class="material-icons menu-icon icon-color-text tool-div">format_color_text</div>
+            </div>
+        </div>
+        
+        
+        <div class="main">
+            <div class="upper">
+                <div class="top-left"></div>
+                <div class="top-right"></div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left"></div>
+                <div class="bottom-right"></div>
+            </div>    
+        </div>
+
+
+
+        <div class="sheets">
+            <div class="scroller">
+                <div class="material-icons icon-left-scroll icon1">arrow_left</div>
+                <div class="material-icons icon-right-scroll icon2">arrow_right</div>
+            </div>
+            <div class="material-icons add-circle-icon icon3">add_circle</div>
+            <div class="sheet-tab-container">
+                <div class="sheet-no"><h6 class="h6">sheet-1</h6></div> 
+            </div>    
+
+        </div>
+    </div>
+<script src="index.js"></script>    
+</body>
+</html>
