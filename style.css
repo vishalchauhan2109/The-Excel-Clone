@@ -7,19 +7,21 @@
 }
 
 .container{
-    min-height: 100vh;
+    min-height: 100rem;
+    min width: 100rem;
 
 }
 
 .excel{
     height: 5vh;
+    width: 100%;
     background-color:#107c41;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 400;
-    font-size: large    ;
+    font-size: large;
 }
 
 .features{
@@ -29,9 +31,10 @@
     justify-content: space-between;
 }
 .starting{
-    min-width: 80%;
+    min-width: 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 20px;
 }
 .ending{
     display: flex;
@@ -41,7 +44,6 @@
 }
 a:link{
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;                         
 }
 h3{
@@ -62,12 +64,8 @@ h3:hover{
     justify-content: space-between;
 }
 .main{
-    min-height: 70vh;   
+    min-height: 68vh;   
     margin-top: 6vh;
-}
-.sheets{
-    min-height: 6vh;
-    
 }
 .tool-kit{
     
@@ -99,9 +97,15 @@ h3:hover{
     display: flex;
 }
 .sheets{
+    margin-bottom: 20px;
+    width: 100vw;
     height: 5vh;
     display: flex;
     align-items: center;
+    background-color: aliceblue;
+    border-top: 1px solid lightgray;
+    position: fixed;
+  
 }
 .scroller{
     width: 100px;
@@ -151,13 +155,14 @@ h3:hover{
 }
 
 .upper{
-    height: 6vh;
+    height: 4vh;
     display: flex;
 }
 .top-left{
     height: 100%;
     width: 2.5%;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
+    border-top: 3px solid lightgray;
     border-right:none;
     box-sizing: border-box;
 
@@ -165,29 +170,59 @@ h3:hover{
 .top-right{
     width:97.5%;
     border: 1px solid lightgray;
-    box-sizing: content-box;
-
+    border-top: 3px solid lightgray;
+    display: flex;
+    
 }
 .bottom{
     height: 64vh;
     display: flex;
     box-sizing: border-box;
-
     
 }
 .bottom-left{
     height: 100%;
     width: 2.5%;
     border:1px solid lightgray;
-    border-top: none;
+    border-top: 1px solid lightgray;
     border-right: none;
     box-sizing: border-box;
 
 }
 .bottom-right{
     width: 97.5%;
-    border-bottom: 1px solid lightgray;
     border-left: 1px solid lightgray;
     box-sizing:content-box;
     border-right: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+.coloumn{
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    min-width: 8vw;
+}
+.row{
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.srdc{
+    display: flex;
+    
+}
+.cell{
+    height: 4vh;
+    width: 8vw;
+    border-bottom:1px solid lightgray;
+    border-right:1px solid lightgray;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;    
+
 }
